@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: hsl(194, 38%, 85%);
+    color: rgb(30, 68, 19);
+    font-family: 'Rajdhani', sans-serif;
+}
+
+img {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+}
+
+a {
+    color: rgb(43, 16, 181);
+}
+
+header {
+    background-image: url(images/klaslokaal.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+h1 {
+    margin-bottom: 200px;
+}
+
+nav {
+    background-color: rgb(89, 206, 208);
+    font-size: 39px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: coral;
+}
+
+section {
+    padding: 50px;
+}
+
+#tour {
+    background-color: rgb(128, 197, 142);
+}
+
+#tour li {
+    color: red;
+}
+
+#galerij {
+    background-color: brown;
+    color: aquamarine;
+}
+
+#galerij img {
+    width: 50%;
+}
