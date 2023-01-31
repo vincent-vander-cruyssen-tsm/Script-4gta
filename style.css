@@ -1,33 +1,55 @@
 body {
     background-color: rgb(156, 188, 198);
+    color: rgb(132, 83, 83);
     font-family: sans-serif;
 }
 
 p {
-    margin-bottom: 200px;
+    margin-bottom: 20px;
+}
+
+header:hover {
+    background-color: #fff;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: blue;
+}
+
+header, .col {
+    padding: 5%;
 }
 
 header {
+    margin: 0px 50px;
     background-color: rgb(221, 195, 195);
 }
 
 #about {
     display: flex;
     margin: 0px 50px;
+    border-radius: 25px;
+    background-color: rgb(194, 231, 232);
 }
 
 .col {
-    border: 1px solid black;
-    border-width: 1px;
+    /* border-width: 1px;
     border-style: solid;
-    border-color: black;
-    padding: 20px;
+    border-color: black; */
+    flex: 1;
 }
 
 .left {
-    width: 30%;
+    /* width: 30%; */
+    /* flex: 1; */
 }
 
 .right {
-    width: 70%;
+    /* width: 70%; */
+    flex: 3;
+    border-left: 2px solid rgb(165, 121, 121);
 }
