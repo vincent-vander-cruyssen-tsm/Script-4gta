@@ -8,9 +8,14 @@
 }
 
 body {
-    background-color: rgb(229, 244, 246);
-    color: rgb(218, 91, 91);
+    background-color: hsl(189, 8%, 80%);
+    color: hsl(0, 43%, 20%);
     font-family: 'Cabin', sans-serif;
+}
+
+h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
 }
 
 img {
@@ -26,16 +31,22 @@ video {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+.flex-item {
+    flex: 1;
 }
 
 .videoframe {
-    max-height: 50vh;
     overflow: hidden;
+    max-height: 60vh;
 }
 
 header {
-    padding: 10px;
-    background-color: hwb(211 51% 24%);
+    padding: 2rem;
+    background-color: hsl(211, 60%, 80%);
 }
 
 header nav li {
@@ -43,28 +54,85 @@ header nav li {
 }
 
 header nav li a {
-    padding: 20px;
+    padding: 1rem;
     background-color: #eaebf4;
     color: #dc2731;
 }
 
 header img {
-    width: 100px;
+    width: 6rem;
 }
 
 header input {
-    margin-left: 10px;
-    padding: 4px 10px;
-    border-radius: 20px;
-    width: 100px;
+    margin-left: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    width: 9rem;
 }
 
 header i {
-    margin-left: 10px;
+    margin-left: 1ch;
     color: #eaebf4;
-    font-size: 14px;
+    font-size: 1.1rem;
 }
 
 header i:hover {
     color: rgb(192, 52, 52);
+}
+
+/* vormgeving van mijn main inhoud */
+
+main {
+    padding: 0 2vw;
+}
+
+section {
+    margin-bottom: 4rem;
+}
+
+#featured img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.flexke {
+    display: flex;
+}
+
+.between {
+    justify-content: space-between;
+}
+
+.end {
+    justify-content: end;
+}
+
+figure {
+    position: relative;
+}
+
+figcaption {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    background-color: #000;
+    padding: 1rem;
+}
+
+#membership .flex-item {
+    padding: 3rem;
+}
+
+.highlight {
+    background-color: hsl(191, 35%, 67%);
+    color: darkblue;
+}
+
+.achtergrondfoto {
+    background-image: url('static/img/groepsfoto.webp');
+    background-size: cover;
+    background-position: center;
+    align-self: stretch;
 }
